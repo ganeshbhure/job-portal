@@ -1,0 +1,33 @@
+# Java / Maven
+**/target/
+**/build/
+
+# Node / React
+**/node_modules/
+**/dist/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Logs and local data
+*.log
+.DS_Store
+
+# Local database files
+*.dump
+*.backup
+
+# Local backend secrets
+**/secrets.properties
+!**/secrets.example.properties
+
+# Local environment overrides
+**/.env.local
+**/.env.*.local
